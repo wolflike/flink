@@ -1,0 +1,6 @@
+Comparing source compatibility of D:\IdeaProject\flink\apache-flink\flink-core\target\flink-core-1.10-SNAPSHOT.jar against D:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3\conf\repository\org\apache\flink\flink-core\1.10.1\flink-core-1.10.1.jar
+***  MODIFIED CLASS: PUBLIC org.apache.flink.configuration.ClusterOptions  (not serializable)
+	===  CLASS FILE FORMAT VERSION: 52.0 <- 52.0
+	+++  NEW FIELD: PUBLIC(+) STATIC(+) FINAL(+) org.apache.flink.configuration.ConfigOption CLUSTER_IO_EXECUTOR_POOL_SIZE
+		+++  NEW ANNOTATION: org.apache.flink.annotation.docs.Documentation$Section
+			+++  NEW ELEMENT: value=expert_fault_tolerance (+)
